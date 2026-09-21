@@ -47,6 +47,121 @@ const places=[
 ['서귀포 KAL 호텔 정원','숙소 · 휴식','객실에서 접근','15–20분','긴 올레길 대신 호텔 정원 일부에서 바다 감상. 바람·현장 출입 안내에 따라 선택.',refs.kal],
 ['쇠소깍','선택 · 서귀포 동쪽','KAL → 약 15–20분','산책 20–30분','22일 컨디션 좋을 때 다른 산책과 교체. 보트·테우는 연령·예약을 확인하지 않아 기본 일정에서 제외.','https://www.visitjeju.net/pdf/Official%20Jeju%20Tourism%20Guidebook_kr.pdf'],
 ];
+const southPlaces=[
+  [
+    "제주돌문화공원",
+    "이동길 · 교래",
+    "소노벨 → 약 30–40분 / 이후 KAL 약 55–75분",
+    "실내·야외 · 60–90분",
+    "돌박물관과 가까운 야외 전시를 골라 보기. 넓은 공원이므로 전 구역 완주보다 한 구역만. 에코랜드와 같은 날 모두 넣기보다 둘 중 하나를 선택하세요.",
+    "https://www.jeju.go.kr/jejustonepark/index.htm",
+    "걷기 보통 · 긴 야외 동선 줄이기",
+    "09:00–18:00, 매표 17:00까지 · 월요일 등 휴원 · 유료",
+    "제주돌문화공원"
+  ],
+  [
+    "사려니숲길 · 붉은오름 입구",
+    "이동길 · 남조로",
+    "돌문화공원 → 약 15–25분 / 이후 KAL 약 40–55분",
+    "야외 · 입구 주변 20–40분",
+    "서귀포로 내려가는 남조로 쪽 입구에서 짧게 숲을 즐기는 후보. 비자림로 쪽 입구와 혼동하지 마세요. 긴 종주 대신 입구에서 왕복하고, 흙길·젖은 길은 피하세요.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500281",
+    "걷기 보통 · 숲길 노면 확인",
+    "09:00–17:00, 17시까지 퇴장 · 기상에 따라 통제 · 무료",
+    "사려니숲길 붉은오름 입구"
+  ],
+  [
+    "휴애리 자연생활공원",
+    "이동길 · 남원 신례",
+    "붉은오름 입구 → 약 25–40분 / 이후 KAL 약 20–30분",
+    "야외 중심 · 60–90분",
+    "남조로에서 신례 쪽으로 내려올 때 선택할 정원과 동물 관찰 공간. 계절 꽃은 방문 직전 개화 상태를 확인하세요. 꽃 만개·동물 프로그램·귤 체험을 확정한 코스는 아닙니다.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500707",
+    "걷기 보통 · 정원 한 구역부터",
+    "9월 09:00–19:00, 입장 마감 17:30 안내 · 유료",
+    "휴애리 자연생활공원"
+  ],
+  [
+    "감귤박물관",
+    "이동길 · 신효",
+    "휴애리 → 약 15–25분 / 이후 KAL 약 10–15분",
+    "실내·온실 중심 · 45–60분",
+    "감귤의 역사와 다양한 감귤나무를 보는 짧은 실내 후보. 비가 오거나 야외 산책을 줄이고 싶을 때 좋습니다. 감귤 따기는 공식 안내상 11–12월 체험으로, 9월 방문 목적에서는 제외하세요.",
+    "https://eticket.seogwipo.go.kr/contents?bmcode=tangerines",
+    "걷기 적음 · 실내 전시 위주",
+    "09:00–18:00, 입장 17:30까지 · 명절 당일 등 휴관 · 유료",
+    "서귀포 감귤박물관"
+  ],
+  [
+    "정방폭포",
+    "서귀포 근처 · 호텔 인근 해안",
+    "KAL → 차 약 5–10분",
+    "야외 · 30–40분",
+    "바다로 떨어지는 폭포를 가까이 보는 곳. 짧은 거리여도 계단을 내려갔다 올라와야 하고 아래쪽은 돌이 많습니다. 계단이 부담되면 자구리공원으로 바꾸세요.",
+    "https://eticket.seogwipo.go.kr/contents?bmcode=jeongbang",
+    "걷기 부담 큼 · 계단 많음 · 유모차 어려움",
+    "09:00–17:50 안내 · 입장 마감·기상 통제 확인 · 유료",
+    "정방폭포"
+  ],
+  [
+    "천지연폭포",
+    "서귀포 근처 · 시내 서쪽",
+    "KAL → 차 약 10–15분",
+    "야외 · 40–60분",
+    "시내 식사 전후에 산책로를 따라 폭포까지 왕복하는 후보. 정방폭포보다 완만한 산책을 원할 때 비교하세요. 왕복 보행이 있으니 중간 휴식을 잡고, 비 온 뒤에는 미끄러운 구간에 주의하세요.",
+    "https://eticket.seogwipo.go.kr/contents?bmcode=cheonjiyeon",
+    "걷기 보통 · 완만한 산책로 왕복",
+    "09:00–22:00, 입장 21:20까지 안내 · 당일 공사·통제 확인 · 유료",
+    "천지연폭포"
+  ],
+  [
+    "새연교 · 새섬",
+    "서귀포 근처 · 서귀포항",
+    "KAL → 차 약 10–15분",
+    "야외 · 다리 주변 20–30분",
+    "서귀포항과 바다를 함께 보는 짧은 산책. 새섬 전체를 돌지 않고 다리 주변에서 사진과 풍경을 즐겨도 좋습니다. 다리 경사가 있어 평지 산책만 원하면 항구 쪽 쉼터 중심으로 선택하세요.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500310",
+    "걷기 보통 · 다리 경사·바람 고려",
+    "무료 야외 공간 · 강풍·현장 출입 안내 확인",
+    "새연교"
+  ],
+  [
+    "서귀포 매일올레시장",
+    "서귀포 근처 · 시내",
+    "KAL → 차 약 10–15분",
+    "지붕 있는 시장 골목 중심 · 30–45분",
+    "서귀포 시내 식사와 묶어 간식·과일·기념품을 살 곳. 붐비는 시간에는 짧게 둘러보고 필요한 먹거리만 포장하세요. 지붕이 있어도 완전한 실내 공간은 아닙니다.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500731",
+    "걷기 적음 · 혼잡·주차 여유",
+    "점포마다 영업·휴무 상이 · 시장 입장 무료",
+    "서귀포 매일올레시장"
+  ],
+  [
+    "자구리공원",
+    "서귀포 근처 · 해안 산책",
+    "KAL → 차 약 5–10분",
+    "야외 · 15–30분",
+    "잔디와 바다 풍경을 짧게 즐기는 휴식 후보. 영빈식당·바다본 등 해안 쪽 식사와 함께 고르기 좋습니다. 가까운 평탄한 구간만 걷고 긴 해안길 전체를 돌 필요는 없습니다.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000019228",
+    "걷기 적음 · 짧은 평지 구간 선택",
+    "무료 야외 공원 · 바람·그늘 여부 확인",
+    "자구리공원"
+  ],
+  [
+    "외돌개",
+    "서귀포 근처 · 서홍 해안",
+    "KAL → 차 약 15–20분",
+    "야외 · 전망 구간 20–40분",
+    "바다 위 바위와 해안 절벽을 바라보는 풍경 후보. 주차장 가까운 전망 구간만 왕복하고 올레길 전체 걷기는 생략하세요. 계단·경사 구간이 있어 편한 신발이 좋습니다.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018409",
+    "걷기 보통 · 계단·경사 있음",
+    "관람 무료 · 주차 구역별 요금 확인",
+    "외돌개"
+  ]
+];
+const originalPlaces=[...places];
+places.push(...southPlaces);
+const renderSouthPlace=(p,i)=>`<article class="card south-place" id="south-place-${i+1}"><span class="meta">${p[1]}</span><h3>${p[0]}</h3><p><b>${p[2]}</b><br>${p[3]}</p><p>${p[4]}</p><div class="south-facts"><p><b>걷는 부담</b><br>${p[6]}</p><p><b>운영 참고</b><br>${p[7]}</p></div><div class="links">${link(map(p[8]),'지도·길찾기')}${link(p[5],'공식·관광안내')}</div></article>`;
 const media=[['아르떼뮤지엄 제주','애월 · 서부','https://kr.artemuseum.com/jeju','함덕·동부 숙소 동선과 멀어 추가 시 다른 핵심 방문지를 빼야 합니다.'],['빛의 벙커','성산 · 동부','https://pf.kakao.com/_cMBLxj','공식 채널에서 현재 전시·휴관 공지 확인. C안에도 자동 추가하지 않습니다.'],['노형수퍼마켙','노형 · 공항권','http://nohyung-supermarket.com','어두운 공간과 빛·소리 자극이 있는 전시. 귀가일에도 일정에는 포함하지 않습니다.']];
 const foods=[
 ['허니문하우스','23일 공통 · 10:00 늦은 조식','샌드위치 · 베이커리 · 음료','칠십리로 228-13. 현재 안내 10:00–18:30, 마지막 주문 18시. KAL에서 차 약 5–10분 + 주차 후 도보 약 5분.','개점 직후 식사 메뉴 제공 여부와 당일 영업을 전날 확인. 10:50 마무리, 11시 공항 방향 출발.','https://www.koreatriptips.com/dining/2664574.html'],
@@ -401,10 +516,10 @@ const foodCard=f=>`<article id="${foodId(f[0])}" class="card food-card" data-foo
 const dayHTML=d=>`<section class="day"><div class="daytop"><span>${d.date}</span><small>${d.date.includes('23')?'RETURN DAY':'JEJU DAYS'}</small></div><h3>${d.title}</h3><p class="route">${d.route}</p><ol>${d.stops.map(s=>`<li><time>${s.t}</time><div><strong>${s.q?link(map(s.q),s.n):s.n}</strong><p>${s.note}</p></div></li>`).join('')}</ol><p class="note">${d.note}</p></section>`;
 const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>우리 제주 3박 4일 · 9월 20–23일</title><meta name="description" content="제주 3박 4일 여행. 소노벨 제주 2박·서귀포 KAL 1박, 5가지 동선과 맛집·명소 안내."><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><style>
 :root{--ink:#182f3b;--blue:#075985;--sea:#087f8c;--orange:#ce4b16;--pale:#edf5f7;--line:#d5e1e5}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;color:var(--ink);background:#fbfcfd;font-family:system-ui,-apple-system,'Segoe UI','Malgun Gothic',sans-serif;line-height:1.7;font-size:16px;word-break:keep-all}a{color:var(--blue);text-underline-offset:4px}a:hover{color:var(--orange)}a:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}.wrap{max-width:1160px;margin:auto;padding:0 26px}header{padding:20px 0;border-bottom:1px solid var(--line)}header .wrap{display:flex;justify-content:space-between;gap:20px;align-items:center}.brand{font-weight:850;letter-spacing:.08em;text-decoration:none}.small,small{font-size:14px;color:#536873}.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;padding-top:36px;padding-bottom:34px;align-items:center}.eyebrow{color:var(--sea);font-size:14px;font-weight:800;letter-spacing:.12em;margin:0 0 12px}h1{font-size:clamp(32px,4.5vw,52px);line-height:1.2;margin:0 0 16px;letter-spacing:-.04em}h2{font-size:30px;line-height:1.35;margin:8px 0 20px}h3{font-size:21px;line-height:1.5;margin:12px 0}p{margin:8px 0 16px}figure{margin:0}figure img{width:100%;height:245px;object-fit:cover;object-position:50% 72%;border-radius:8px}figcaption{font-size:12px;color:#5d6d75}.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span,.badge{background:var(--pale);border-radius:4px;padding:5px 10px;font-size:14px;font-weight:700}.fixed{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}.fixed>div{padding:18px;background:white}.fixed b{display:block;font-size:18px}.fixed p{font-size:14px;margin:5px 0 0}nav{position:sticky;top:0;background:#fbfcfdf5;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10;margin-top:28px}nav .wrap{display:flex;gap:24px;overflow:auto}nav a{padding:16px 0;white-space:nowrap;text-decoration:none;font-weight:700}section.block{padding-top:48px;padding-bottom:12px}.intro-note{border-left:4px solid var(--orange);background:#fff2e9;padding:16px 20px;margin:24px 0}.compare{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.option{display:block;padding:22px;border:1px solid var(--line);background:#fff;border-radius:8px;text-decoration:none;color:var(--ink)}.option:first-child{border:2px solid var(--sea)}.option strong{font-size:28px;color:var(--sea)}.option p{margin:6px 0}.plan{padding:32px 0;border-top:2px solid var(--ink);margin-top:40px}.planhead{display:flex;align-items:center;gap:18px}.letter{font-size:42px;line-height:1;font-weight:850;color:var(--sea)}.days{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.day{border:1px solid var(--line);border-radius:8px;padding:24px;background:white}.daytop{display:flex;justify-content:space-between;color:var(--sea);font-weight:800}.route{background:var(--pale);font-size:14px;padding:12px;border-radius:4px}.day ol{list-style:none;padding:0;margin:20px 0}.day li{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid #edf1f3}.day time{font-size:14px;font-weight:800;color:var(--sea)}.day li p{font-size:15px;color:#4d616b;margin:4px 0}.day li strong a{text-decoration:none}.note{font-size:14px;color:#455c68;background:#f0f5f6;padding:12px;margin-bottom:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{border:1px solid var(--line);background:white;border-radius:8px;padding:23px}.card p{font-size:15px}.card .meta{color:var(--sea);font-size:14px;font-weight:700}.card .links{display:flex;flex-wrap:wrap;gap:14px;padding-top:12px;border-top:1px solid var(--line);font-size:14px}.media .card{background:#f1f2f5;border-style:dashed}.media .badge{background:#e2e5ea}.trend{display:grid;grid-template-columns:1fr 1fr;gap:24px}.trend>div{background:var(--pale);padding:24px;border-radius:8px}.check{padding:22px 25px;background:white;border:1px solid var(--line);border-radius:8px}.check li{margin:10px 0}footer{border-top:1px solid var(--line);margin-top:48px;padding:25px 0 36px;color:#526975;font-size:14px}.return{background:#123e53;color:white;padding:24px;border-radius:8px;margin-top:22px}.return b{font-size:22px}.return p{margin-bottom:0}@media(max-width:800px){.hero{grid-template-columns:1fr}.hero figure img{height:200px}.fixed{grid-template-columns:1fr 1fr}.compare,.grid{grid-template-columns:1fr 1fr}.days{grid-template-columns:1fr}.trend{grid-template-columns:1fr}nav .wrap{gap:20px}}@media(max-width:520px){.wrap{padding-left:18px;padding-right:18px}.compare,.grid{grid-template-columns:1fr}.hero{padding-top:26px;gap:18px}h2{font-size:26px}.day{padding:18px}.day li{grid-template-columns:76px 1fr;gap:8px}.fixed>div{padding:12px}.fixed b{font-size:16px}header .small{font-size:12px}.planhead{align-items:flex-start}.hero figure img{height:160px}}@media print{nav{position:static}.hero figure{display:none}.hero,.days,.grid,.compare{display:block}.day,.card,.option{break-inside:avoid;margin:15px 0}.wrap{max-width:none}.plan{break-before:page}a{color:inherit}body{font-size:12px}}
-.food-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.food-filters button{font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:white;color:var(--ink);cursor:pointer}.food-filters button[aria-pressed="true"]{background:var(--sea);color:white;border-color:var(--sea)}.food-filters button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.food-card[hidden]{display:none}@media print{.food-card[hidden]{display:block}.food-filters{display:none}}.food-atlas{overflow-x:auto;border:1px solid #c6dde2;border-radius:18px;margin:24px 0}.food-atlas svg{display:block;width:100%;min-width:850px;height:auto}.atlas-food-link:hover text,.atlas-food-link:focus text{fill:#ce4b16;text-decoration:underline}.region-index{border:1px solid var(--line);padding:18px;border-radius:8px;background:white}.region-index summary{cursor:pointer;font-weight:750}.region-index li{margin:8px 0}.food-card:target{outline:3px solid var(--orange);outline-offset:3px;scroll-margin-top:95px}@media print{.food-atlas svg{min-width:0}}#jeju-food-map{height:520px;border:1px solid var(--line);border-radius:14px;z-index:0;background:#edf5f7}.region-map-pin span{display:grid;place-items:center;width:36px;height:36px;color:white;border:2px solid white;border-radius:50%;font-weight:800;box-shadow:0 2px 7px #0005}.leaflet-popup-content li{margin:9px 0}.break-info{border-left:3px solid #8495a0;background:#f1f4f6;padding:12px;margin:16px 0;font-size:14px}.break-info p{font-size:13px;margin:6px 0}.break-info.none{border-color:#15744b;background:#e9f6ee}.break-info.break{border-color:#bf5b19;background:#fff4e9}.no-break-mini{font-size:12px;background:#e9f6ee;color:#146640;border-radius:4px;padding:3px 5px;white-space:nowrap}.break-filter{display:block;padding:16px;background:#e9f6ee;border-radius:8px;margin:16px 0;cursor:pointer}.break-filter input{width:19px;height:19px;vertical-align:middle;margin-right:8px}@media(max-width:520px){#jeju-food-map{height:420px}}.south-callout{padding:22px;border-radius:12px;background:#e3f1f1;margin:22px 0}.south-index li{padding:8px 0}.south-index li span{display:block}.south-facts{background:#f6f3ee;padding:12px;border-radius:8px;font-size:14px}.south-facts p{margin:8px 0}.south-index{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:680px){.south-index{grid-template-columns:1fr}}#seogwipo-food{scroll-margin-top:90px}</style></head><body><header><div class="wrap"><a class="brand" href="#top">COAST DAYS / JEJU</a><span class="small">제주 여행 노트</span></div></header><main id="top"><section class="hero wrap"><div><p class="eyebrow">2026. 09. 20 SUN — 09. 23 WED</p><h1>제주에서 보내는<br>여유로운 4일.</h1><p>함덕에서 두 밤, 서귀포에서 한 밤.<br>맛있는 한 끼와 충분한 휴식 사이로 제주를 만나요.</p></div><figure><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hamdeok_Beach.jpg" alt="야자수와 푸른 바다가 보이는 제주 함덕해변" width="5592" height="4194"><figcaption>HAMDEOK BEACH · Hong Da Hyeon / Wikimedia Commons · CC0</figcaption></figure></section><div class="wrap fixed"><div><span class="small">가는 비행기 · 20일</span><b>김포 07:40 출발</b><p>도착시간은 항공 예약표 기준</p></div><div><span class="small">렌터카</span><b>20일 10:00 대여</b><p>23일 14:00 반납</p></div><div><span class="small">숙박</span><b>소노벨 제주 2박</b><p>20·21일 / 서귀포 KAL 22일 1박</p></div><div><span class="small">오는 비행기 · 23일</span><b>제주 16:05 출발</b><p>14:40 전후 공항 도착 목표</p></div></div><nav aria-label="여행 메뉴"><div class="wrap"><a href="#plans">코스 5가지</a><a href="#places">가볼 만한 곳</a><a href="#seogwipo-food">서귀포·오션뷰 20선</a><a href="#food-map">맛집 지도</a><a href="#food">맛집·카페</a><a href="#hotspots">요즘 핫플</a><a href="#media">미디어아트 후보</a><a href="#check">출발 전 체크</a></div></nav>
+.food-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.food-filters button{font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:white;color:var(--ink);cursor:pointer}.food-filters button[aria-pressed="true"]{background:var(--sea);color:white;border-color:var(--sea)}.food-filters button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.food-card[hidden]{display:none}@media print{.food-card[hidden]{display:block}.food-filters{display:none}}.food-atlas{overflow-x:auto;border:1px solid #c6dde2;border-radius:18px;margin:24px 0}.food-atlas svg{display:block;width:100%;min-width:850px;height:auto}.atlas-food-link:hover text,.atlas-food-link:focus text{fill:#ce4b16;text-decoration:underline}.region-index{border:1px solid var(--line);padding:18px;border-radius:8px;background:white}.region-index summary{cursor:pointer;font-weight:750}.region-index li{margin:8px 0}.food-card:target{outline:3px solid var(--orange);outline-offset:3px;scroll-margin-top:95px}@media print{.food-atlas svg{min-width:0}}#jeju-food-map{height:520px;border:1px solid var(--line);border-radius:14px;z-index:0;background:#edf5f7}.region-map-pin span{display:grid;place-items:center;width:36px;height:36px;color:white;border:2px solid white;border-radius:50%;font-weight:800;box-shadow:0 2px 7px #0005}.leaflet-popup-content li{margin:9px 0}.break-info{border-left:3px solid #8495a0;background:#f1f4f6;padding:12px;margin:16px 0;font-size:14px}.break-info p{font-size:13px;margin:6px 0}.break-info.none{border-color:#15744b;background:#e9f6ee}.break-info.break{border-color:#bf5b19;background:#fff4e9}.no-break-mini{font-size:12px;background:#e9f6ee;color:#146640;border-radius:4px;padding:3px 5px;white-space:nowrap}.break-filter{display:block;padding:16px;background:#e9f6ee;border-radius:8px;margin:16px 0;cursor:pointer}.break-filter input{width:19px;height:19px;vertical-align:middle;margin-right:8px}@media(max-width:520px){#jeju-food-map{height:420px}}.south-callout{padding:22px;border-radius:12px;background:#e3f1f1;margin:22px 0}.south-index li{padding:8px 0}.south-index li span{display:block}.south-facts{background:#f6f3ee;padding:12px;border-radius:8px;font-size:14px}.south-facts p{margin:8px 0}.south-index{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:680px){.south-index{grid-template-columns:1fr}}#seogwipo-food{scroll-margin-top:90px}</style></head><body><header><div class="wrap"><a class="brand" href="#top">COAST DAYS / JEJU</a><span class="small">제주 여행 노트</span></div></header><main id="top"><section class="hero wrap"><div><p class="eyebrow">2026. 09. 20 SUN — 09. 23 WED</p><h1>제주에서 보내는<br>여유로운 4일.</h1><p>함덕에서 두 밤, 서귀포에서 한 밤.<br>맛있는 한 끼와 충분한 휴식 사이로 제주를 만나요.</p></div><figure><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hamdeok_Beach.jpg" alt="야자수와 푸른 바다가 보이는 제주 함덕해변" width="5592" height="4194"><figcaption>HAMDEOK BEACH · Hong Da Hyeon / Wikimedia Commons · CC0</figcaption></figure></section><div class="wrap fixed"><div><span class="small">가는 비행기 · 20일</span><b>김포 07:40 출발</b><p>도착시간은 항공 예약표 기준</p></div><div><span class="small">렌터카</span><b>20일 10:00 대여</b><p>23일 14:00 반납</p></div><div><span class="small">숙박</span><b>소노벨 제주 2박</b><p>20·21일 / 서귀포 KAL 22일 1박</p></div><div><span class="small">오는 비행기 · 23일</span><b>제주 16:05 출발</b><p>14:40 전후 공항 도착 목표</p></div></div><nav aria-label="여행 메뉴"><div class="wrap"><a href="#plans">코스 5가지</a><a href="#places">가볼 만한 곳</a><a href="#south-places">서귀포·이동길 10선</a><a href="#seogwipo-food">서귀포·오션뷰 20선</a><a href="#food-map">맛집 지도</a><a href="#food">맛집·카페</a><a href="#hotspots">요즘 핫플</a><a href="#media">미디어아트 후보</a><a href="#check">출발 전 체크</a></div></nav>
 <section id="plans" class="wrap block"><p class="eyebrow">CHOOSE YOUR PACE</p><h2>우리에게 맞는 코스는?</h2><p>다섯 안 모두 <b>스누피가든 · 도도리 고기국수 · 숙성도</b>를 포함하며, <b>23일 10시 허니문하우스 늦은 조식</b>도 공통입니다. D안은 스누피가든을 첫날에 방문하고, E안은 숙소 거리보다 요즘 화제인 공간을 우선합니다. 미디어아트 전시관은 일정에서 모두 제외했습니다.</p><div class="compare">${plans.map(p=>`<a class="option" href="#plan-${p.id}"><span class="badge">${p.tag}</span><h3><strong>${p.id}</strong> ${p.title}</h3><p>${p.desc}</p><small>${p.drive}</small></a>`).join('')}</div><div class="intro-note"><b>첫 선택은 A안.</b> 하루 핵심 관광지 한 곳과 객실 휴식을 중심으로 잡았습니다. 개인 컨디션과 휴식 시간을 고려한 일정입니다. 걷기 한 번 20–30분, 긴 식당 대기는 피하는 기준입니다.</div><p class="small">모든 운전시간은 계획용 추정이며 실시간 길찾기 값이 아닙니다. 렌터카 업체·교통·날씨에 따라 달라집니다. 정해진 숙박은 20·21일 소노벨 제주, 22일 서귀포 KAL입니다.</p>${plans.map(p=>`<article id="plan-${p.id}" class="plan"><div class="planhead"><span class="letter">${p.id}</span><div><span class="badge">${p.tag}</span><h2>${p.title}</h2></div></div><p>${p.why}</p><p class="small">${p.drive} · 항공 이동 제외</p><div class="days">${p.days.map(dayHTML).join('')}</div></article>`).join('')}</section>
 <section id="hotspots" class="block wrap"><p class="eyebrow">HOT NOW · PLAN E</p><h2>E안, 왜 이 장소를 골랐나요?</h2><p>2026년 9월 19일 확인한 보도·운영사 안내·최근 후기를 바탕으로 선정했습니다. 최신 개업 순위나 방문객 수 순위는 아닙니다.</p><div class="grid">${hotSources.map(h=>`<article class="card"><span class="meta">E안 신규 장소</span><h3>${h[0]}</h3><p>${h[1]}</p><div class="links">${link(map(h[0]),'지도')}${link(h[2],h[3])}</div></article>`).join('')}</div><p>동화마을 참고: ${link('https://alkaidsolution.tistory.com/154','2026 방문 후기')} · ${link('https://www.popcondplay.com/ip/store/12?store=23','코리코카페 운영사 매장 안내')}. 방문일 영업·식사 메뉴·대기는 지도와 매장 공지를 확인하세요.</p></section><section class="block wrap"><p class="eyebrow">THIS AUTUMN IN JEJU</p><h2>요즘 제주, 우리 동선에 맞게</h2><div class="trend"><div><h3>마을·숲·제철 풍경</h3><p>제주관광공사의 2026 가을 추천은 로컬마을, 숲, 구좌 당근과 가을 들판을 소개합니다. 이를 B안의 세화·성읍·보롬왓에 맞춰 반영했습니다. 추천의 서부 저지리까지는 왕복하지 않습니다.</p>${link(refs.autumn,'2026 공식 가을 추천')}</div><div><h3>9월의 꽃은 ‘상태 확인 후’</h3><p>메밀·억새·핑크뮬리는 장소와 기상에 따라 시기가 다릅니다. 9월 20~23일 만개나 특정 축제 진행을 확정하지 않았습니다. 보롬왓을 방문할 때는 전날 사진·공지를 확인하고, 기대와 다르면 마을·카페로 전환하세요.</p>${link(refs.borom,'보롬왓 관광안내')}</div></div></section>
-<section id="places" class="block wrap"><p class="eyebrow">PLACES & ROUTES</p><h2>가볼 만한 곳 ${places.length}곳</h2><div class="grid">${places.map(p=>`<article class="card"><span class="meta">${p[1]}</span><h3>${p[0]}</h3><p><b>${p[2]}</b><br>${p[3]}</p><p>${p[4]}</p><div class="links">${link(map(p[0]),'지도')}${link(p[5],'공식·관광안내')}</div></article>`).join('')}</div></section>
+<section id="places" class="block wrap"><p class="eyebrow">PLACES & ROUTES</p><h2>가볼 만한 곳 ${places.length}곳</h2><div id="south-places" style="scroll-margin-top:95px"><p class="eyebrow">NEW · SEOGWIPO & ON THE WAY</p><h3>서귀포 주변 · 이동길에 더한 10곳</h3><p>2026.09.21 공식·관광 안내 확인. 기존 5가지 일정에 자동으로 넣지 않은 추가 후보입니다. 이동·관람 시간은 계획용 예상치로, 주차·정체·휴식 시간에 따라 달라집니다.</p><div class="south-callout"><b>내려가는 날에는 한두 곳만 골라보세요.</b><p>남조로 경유라면 돌문화공원 또는 사려니숲길 중 한 곳, 신례·신효 쪽을 지날 때 휴애리 또는 감귤박물관 중 한 곳을 비교하세요. A안의 에코랜드를 그대로 간다면 오전 관광을 더 넣기보다 교체 후보로 참고하면 편합니다.</p><p>체크인 뒤 짧게 쉬려면 자구리공원, 시내 저녁과 쇼핑은 올레시장, 바다 풍경은 새연교가 후보입니다. E안처럼 서쪽에서 내려오는 날에는 교래·신례를 추가로 돌아가지 않고 호텔 근처 6곳에서 고르세요.</p></div><h3>함덕 → 서귀포 이동 중 후보 4곳</h3><div class="grid">${southPlaces.slice(0,4).map((p,i)=>renderSouthPlace(p,i)).join('')}</div><h3>서귀포 KAL에서 출발하는 근처 후보 6곳</h3><div class="grid">${southPlaces.slice(4).map((p,i)=>renderSouthPlace(p,i+4)).join('')}</div><p class="small">운영시간·휴관·입장 마감은 연결된 공식 안내와 당일 공지를 우선하세요. 폭포·숲·해안은 기상에 따라 통제될 수 있습니다.</p></div><h3>기존 여행 후보 10곳</h3><div class="grid">${originalPlaces.map(p=>`<article class="card"><span class="meta">${p[1]}</span><h3>${p[0]}</h3><p><b>${p[2]}</b><br>${p[3]}</p><p>${p[4]}</p><div class="links">${link(map(p[0]),'지도')}${link(p[5],'공식·관광안내')}</div></article>`).join('')}</div></section>
 ${southSummary}${foodMapHTML}<section id="food" class="block wrap"><p class="eyebrow">FAMILY TABLE</p><h2>맛집·카페 ${foods.length}곳</h2><p>음식 종류를 눌러 골라 보세요. 기존 24곳에 서귀포 주변 10곳·오션뷰 저녁 10곳을 추가해 총 44곳을 정리했습니다. A–E 일정은 그대로입니다.</p><p class="small">서귀포 추가 자료 확인: 2026.09.21. 기존 SNS 자료 확인: 2026.09.20. 유튜브 영상 설명과 영상 연결 자료, 공식 관광·매장 안내를 참고했습니다. 일부 영상은 2022년 홍보 자료로 별도 표시했습니다. 인스타그램은 본문 접근 제한으로 매장 안내·관광공사에 연결된 계정을 교차 확인했으며, 최근 게시물 내용이나 인기 순위를 검증한 것은 아닙니다. 소개 당시 메뉴·가격과 현재 운영은 다를 수 있습니다.</p><div class="food-filters" role="group" aria-label="맛집 모음 선택"><button type="button" data-collection="all" aria-pressed="true">모든 지역</button><button type="button" data-collection="near" aria-pressed="false">KAL 주변 새 맛집 10곳</button><button type="button" data-collection="ocean" aria-pressed="false">오션뷰 저녁 10곳</button></div><div class="food-filters" role="group" aria-label="음식 종류 선택"><button type="button" data-filter="전체" aria-pressed="true">전체 (${foods.length})</button>${categories.map(c=>`<button type="button" data-filter="${c}" aria-pressed="false">${c} (${foods.filter(f=>foodCats[f[0]]===c).length})</button>`).join('')}</div><label class="break-filter"><input type="checkbox" id="no-break-only">브레이크타임 없는 곳만 보기 · 후기 기준 2곳</label><p class="small">휴게정보 확인: 기존 목록 2026.09.20 / 추가 목록 2026.09.21. ‘없음’이 명시된 우진해장국·명진전복 후기를 별도 표시했습니다. 영업시간만 연속으로 표기된 곳은 없음으로 단정하지 않았습니다. 매장별 근거와 주의사항은 카드에서 확인하세요.</p><p id="food-result" class="small" role="status" aria-live="polite">전체 ${foods.length}곳</p><div class="grid" id="food-grid">${categories.flatMap(c=>foods.filter(f=>foodCats[f[0]]===c)).map(foodCard).join('')}</div></section>
 <section id="media" class="block wrap media"><p class="eyebrow">SAVED FOR ANOTHER TIME</p><h2>미디어아트는 목록에만</h2><p><b>아래 세 곳은 A·B·C·D·E안 어디에도 포함하지 않았습니다.</b> 나중에 마음이 바뀌면 참고할 후보입니다.</p><div class="grid">${media.map(m=>`<article class="card"><span class="badge">일정 제외</span><h3>${m[0]}</h3><p class="meta">${m[1]}</p><p>${m[3]}</p><div class="links">${link(m[2],'공식 안내')}${link(map(m[0]),'지도')}</div></article>`).join('')}</div></section>
 <section id="check" class="block wrap"><p class="eyebrow">READY FOR TOMORROW</p><h2>출발 전, 이것만 확인하세요</h2><div class="check"><ul><li><b>렌터카:</b> 탑승 정원과 필요한 카시트·여행가방 공간 확인. 업체 인수·반납 주소와 셔틀 간격은 예약서 기준입니다.</li><li><b>숙성도:</b> 함덕점 064-783-9951에 일행 동석·아기 의자·대기 방식을 확인하세요. 첫날 입장 실패 시 21일 이른 저녁으로 옮깁니다.</li><li><b>스누피가든:</b> 공식 예매 페이지에서 당일 사용 가능 시점·유아 무료 기준·연령 증빙 확인. 일행의 실제 개월 수를 몰라 입장료 총액은 확정하지 않았습니다.</li><li><b>숙소:</b> 객실 정원·인원 추가비·침구·조식·체크인 및 주차를 예약 내용과 대조하세요. ${link(refs.sono,'소노벨 공식')} · ${link(refs.kal,'서귀포 KAL 공식')}</li><li><b>아이 휴식:</b> 유모차·여벌옷·간식·물·익숙한 책을 준비하고, 13~16시 중 낮잠을 확보하세요. B안 세화는 낮잠 우선이면 생략합니다.</li><li><b>날씨:</b> 비가 오면 C안을 참고하되 폭우·강풍에는 이동 자체를 줄입니다. ${link('https://www.weather.go.kr/w/index.do','기상청')}</li></ul></div><div class="return"><b>23일 13:30 반납지 도착 목표 → 14:00 반납 → 16:05 비행기</b><p>허니문하우스에서 10시 늦은 조식 후 11시 공항 방향으로 출발합니다. 차량 검수·셔틀·수하물 수속 시간을 우선하세요.</p></div></section></main><footer><div class="wrap"><b>자료 확인: 2026년 9월 19일</b><p>운영 정보는 공식 사이트·제주관광공사와 검색 가능한 식당 안내·후기를 확인했습니다. 검색 수집일과 원문 갱신일은 다를 수 있으며, 예약 가능 여부와 당일 영업을 보장하지 않습니다. 코스·이동시간·휴식시간은 일행을 위한 계획 제안입니다.</p><p>사진: ${link('https://commons.wikimedia.org/wiki/File:Hamdeok_Beach.jpg','Hong Da Hyeon / Wikimedia Commons')} · CC0, 화면 비율에 맞게 크롭. ${link('https://astricknox.github.io/yangyang-trip/','지난 양양 여행')}</p><a href="#top">맨 위로</a></div></footer><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script><script>var regionMapData=${JSON.stringify(regionMapData)};
