@@ -68,15 +68,309 @@ foods.push(
 ['전원일기 동광점','추가 후보 · 안덕 동광','흑돼지 수육 · 쌈밥','동광리 533. 제주관광공사 소개에서 인스타그램 @jeonwon_ilgi와 수육·쌈밥 메뉴를 확인한 곳.','수육·밥·쌈채소를 함께 먹는 한식 후보. 예전 소개 가격을 현재 가격으로 보장하지 않습니다.','https://www.instagram.com/jeonwon_ilgi/']
 );
 foods.push(...[["명진전복","추가 후보 · 구좌 평대","전복돌솥밥 · 전복구이 · 전복죽","구좌읍 해맞이해안로 1282. 전복을 밥·구이·죽으로 다양하게 먹고 싶을 때 참고할 동쪽 식당.","관광안내에 화요일 휴무가 표기되어 있어 9월 22일 방문은 사전 확인하세요. 돌솥밥 조리·대기시간도 확인.","https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020047"],["우진해장국","추가 후보 · 제주시 삼도","고사리육개장 · 몸국 · 빈대떡","서사로 11. 고사리와 돼지고기를 푹 끓인 걸쭉한 제주식 육개장 후보. 맛집한끼 2026.08 영상 연결 자료도 함께 제공합니다.","일반적인 붉은 육개장과 맛·식감이 다릅니다. 본관·별관 운영이 다를 수 있으니 대기와 포장 가능 여부 확인.","https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018375"],["자매국수","추가 후보 · 제주시 이호","고기국수","항골남길 46. 돼지고기 고명과 국물 국수를 먹고 싶을 때 도도리와 비교할 수 있는 후보.","이전 주소를 안내하는 오래된 후기가 있으니 이호동 매장으로 검색하세요. 현장 대기·접수 마감 확인.","https://fmr.purpleo.co.kr/view/29999"],["미영이네","추가 후보 · 대정 모슬포","고등어회 · 생선탕","모슬포항 앞에서 고등어회와 생선 요리를 즐기는 식당. 회를 채소·김과 함께 먹는 구성을 참고하세요.","조천점과 혼동하지 않도록 모슬포 매장으로 확인. 회를 먹지 않는 일행은 익힌 탕·식사 메뉴를 문의하세요.","https://visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020421"],["고집돌우럭 중문점","추가 후보 · 중문","우럭조림 · 낭푼밥 한상","일주서로 879. 우럭조림과 밥을 함께 먹는 한상 후보. 런치·디너의 구성과 가격이 다릅니다.","최소 주문 인원·맵기·구이 구성 확인. 여행생각 영상은 2022년 관광협회 홍보 제작 자료이므로 현재 메뉴는 공식 안내 우선.","https://www.gozipfish.com/"],["춘심이네 본점","추가 후보 · 안덕 창천","통갈치구이 · 갈치조림","창천중앙로24번길 16. 긴 통갈치구이를 나눠 먹고 싶을 때 참고. 매장 안내와 소개 영상을 함께 연결했습니다.","구이와 조림의 주문 단위·총가격 확인. 2022년 관광협회 홍보 영상의 메뉴·가격을 현재 기준으로 보지 마세요.","https://litt.ly/ouvtdes"],["곰막식당","추가 후보 · 구좌 동복","성게국수 · 회국수","구좌해안로 64. 성게가 들어간 국수와 매콤한 회국수를 비교해 고를 수 있는 곳. 최자로드7 EP.10 연결 자료 참고.","회국수에는 생선회·양념이 들어갑니다. 맵지 않은 국물 메뉴를 원하면 성게국수의 당일 제공 여부 확인.","https://seemap.co.kr/place/461"],["산방식당 모슬포본점","추가 후보 · 대정 모슬포","밀냉면 · 비빔밀냉면 · 수육","1971년부터 이어진 밀냉면 식당으로 제주관광공사가 소개하는 곳. 시원한 면과 수육을 함께 먹는 후보.","제주시 지점과 구분해 모슬포본점으로 검색. 비빔 양념의 맵기와 대기·재료 소진 여부 확인.","https://visitjeju.net/kr/detail/view?contentsid=CONT_000000000501267"],["수우동 협재점","추가 후보 · 한림 협재","자작냉우동 · 비빔냉우동","협재1길 11. 차가운 우동을 선호할 때 고를 서쪽 식당. 현재 메뉴와 방문 후기는 연결된 식당 안내를 참고하세요.","냉우동이 취향에 맞는지 먼저 선택. 접수 방식·대기·당일 품절을 확인하고 무리하게 이동하지 않기.","https://www.diningcode.com/profile.php?rid=I1nGKDndnr7h"],["제주김만복 본점","추가 후보 · 제주시 오라","전복내장 김밥 · 전복주먹밥","오라로 41. 전복내장으로 맛낸 밥과 두꺼운 달걀지단이 들어간 김밥을 포장 식사로 참고하세요.","관광안내의 영업시간·휴무 표기가 서로 달라 방문일 운영 확인이 필요합니다. 9월 23일 수요일은 특히 확인.","https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020072"]]);
+const southFoods=[
+  [
+    "서귀포흑돈",
+    "near",
+    "고기·구이",
+    "토평·KAL 인근",
+    "칠십리로 278",
+    "약 3–5분",
+    "흑돼지 구이 · 세트",
+    "호텔에서 멀리 이동하지 않고 고기를 먹고 싶은 날 우선 비교할 곳.",
+    "저녁 ~21:30 / 마지막 주문 21:00 안내",
+    "시작시간·브레이크타임 안내가 서로 달라 17:30 이후 식사 기준으로 문의. 픽업·동석 가능 여부도 확인.",
+    "https://www.diningcode.com/profile.php?rid=NTGvIrvL88zY",
+    7
+  ],
+  [
+    "삼보식당",
+    "near",
+    "해산물·생선",
+    "서귀포 시내",
+    "중정로 25",
+    "약 10–15분",
+    "전복뚝배기 · 옥돔구이",
+    "국물과 생선구이를 함께 고르기 좋은 제주 향토식 후보.",
+    "08:00–21:00 / 마지막 주문 20:00",
+    "둘째·넷째 수요일 휴무 안내. 9/23은 넷째 수요일이므로 주의. 구이의 가시는 확인하세요.",
+    "https://www.ktourmap.com/spotDetails.jsp?contentId=2781431",
+    7
+  ],
+  [
+    "용이식당",
+    "near",
+    "한식·전골",
+    "서귀포 시내",
+    "중앙로79번길 9",
+    "약 10–15분",
+    "돼지고기 두루치기",
+    "고기와 채소를 볶아 먹는 소박한 한 끼. 시내에서 든든하게 먹을 때 선택.",
+    "09:00–22:00 안내",
+    "양념이 있는 메뉴입니다. 맵기 조절과 최소 주문 수량을 먼저 물어보세요.",
+    "https://www.tabling.co.kr/place/677ccaa466de5f06987ba9ed",
+    7
+  ],
+  [
+    "천짓골",
+    "near",
+    "고기·구이",
+    "서귀포 시내",
+    "중앙로41번길 4",
+    "약 10–15분",
+    "돔베고기 · 흑돼지 수육",
+    "구운 고기 대신 삶은 돼지고기를 나눠 먹고 싶은 저녁 후보.",
+    "17:30–21:30 / 일요일 휴무",
+    "저녁만 운영하는 안내입니다. 개점 전 대기·당일 접수와 한 접시 분량을 확인하세요.",
+    "https://www.tabling.co.kr/place/677ccb3166de5f06987cce7a",
+    7
+  ],
+  [
+    "덕성원 본점",
+    "near",
+    "중식",
+    "서귀포 시내",
+    "태평로401번길 4",
+    "약 8–12분",
+    "꽃게짬뽕 · 짜장면 · 탕수육",
+    "해산물·흑돼지 외에 중식을 고를 수 있는 오래된 식당.",
+    "11:00–21:00 / 매월 둘째 화요일 휴무 안내",
+    "9/22는 넷째 화요일이지만 일부 요일표에 화요일 휴무도 표시되어 출발 전 확인. 짜장·볶음밥으로 맵지 않은 선택 가능.",
+    "https://www.tabling.co.kr/place/677cc89166de5f06987728a3",
+    7
+  ],
+  [
+    "기억나는집",
+    "near",
+    "한식·전골",
+    "서귀포 시내",
+    "중앙로 6",
+    "약 8–12분",
+    "해물탕 · 갈치조림 · 고등어구이",
+    "냄비 요리를 나눠 먹고 싶을 때 참고할 천지연·이중섭거리 인근 식당.",
+    "09:30–21:30 / 마지막 주문 20:30 안내",
+    "휴무·운영시간은 안내별 차이가 있습니다. 해물탕 맵기와 익힌 구이 메뉴를 확인하세요.",
+    "https://www.diningcode.com/profile.php?rid=8NgKrXyf5A3O",
+    7
+  ],
+  [
+    "진주식당",
+    "near",
+    "해산물·생선",
+    "서귀포 시내",
+    "태평로 353",
+    "약 10–15분",
+    "전복뚝배기 · 전복죽",
+    "뜨끈한 해산물 국물이나 부드러운 죽을 고르기 좋은 시내 후보.",
+    "08:00–20:00 안내",
+    "전복·오분자기 등 재료별 메뉴와 당일 주문 마감 확인. 늦은 저녁보다 일찍 방문하세요.",
+    "https://www.diningcode.com/profile.php?rid=0UbkkX8ix6uk",
+    7
+  ],
+  [
+    "삼강식당 본점",
+    "near",
+    "한식·전골",
+    "서호",
+    "신서로102번길 53",
+    "약 20–25분",
+    "오리 샤브샤브 · 백숙 · 죽",
+    "한 냄비를 나눠 먹으며 천천히 저녁을 보내기 좋은 오리 요리 후보.",
+    "16:50–22:00 / 월요일 휴무 안내",
+    "본점과 서홍·효돈·중문점을 구분하세요. 코스 소요시간과 예약 가능 여부를 먼저 문의.",
+    "https://www.diningcode.com/profile.php?rid=AD13lAh6EHLF",
+    7
+  ],
+  [
+    "다정이네 올레시장 본점",
+    "near",
+    "김밥·포장",
+    "올레시장 동쪽",
+    "동문로 59-1",
+    "약 8–12분",
+    "다정이네김밥 · 멸치고추김밥",
+    "호텔에서 쉬고 싶을 때 포장 식사로 챙길 수 있는 선택지.",
+    "07:00–20:00 / 휴게 15:00–16:00",
+    "맵지 않은 기본 김밥과 매운 멸치고추 김밥을 구분. 포장 주문 후 수령시간을 확인하세요.",
+    "https://www.tabling.co.kr/place/677ccaae66de5f06987bbf23",
+    7
+  ],
+  [
+    "맛있는집",
+    "near",
+    "국수·국밥",
+    "동홍동",
+    "중앙로 110",
+    "약 10–15분",
+    "각재기국 · 보말국 · 한식",
+    "점심에 제주식 생선국이나 집밥을 먹고 싶을 때 비교할 곳.",
+    "평일 08:00–19:00 안내 / 일요일 휴무",
+    "관광안내에는 14:30–17:00 휴게가 있어 점심 방문을 권합니다. 안내마다 마감시간이 달라 저녁은 전화 확인.",
+    "https://www.diningcode.com/profile.php?rid=m7fYHq9fcHAr",
+    7
+  ],
+  [
+    "바다를본돼지 서귀포올레시장점",
+    "ocean",
+    "고기·구이",
+    "자구리 해안",
+    "칠십리로 123, 2층",
+    "약 5–10분",
+    "흑돼지 구이 · 열무국수",
+    "자구리 해안과 바다를 바라보며 고기를 먹는 가까운 오션뷰 후보.",
+    "12:00–22:00 / 마지막 주문 21:00 안내",
+    "바다 방향 창가 요청. 2층 접근·엘리베이터와 동석 가능 여부 확인.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000008372",
+    7
+  ],
+  [
+    "보목해녀의집",
+    "ocean",
+    "해산물·생선",
+    "보목포구",
+    "보목포로 42",
+    "약 5–10분",
+    "자리물회 · 한치물회 · 고등어구이",
+    "포구와 섶섬이 보이는 창가에서 이른 저녁을 먹기 좋은 후보.",
+    "10:00–20:00 안내",
+    "17:00–18:00 방문 추천. 생선을 날로 먹지 않는 일행은 익힌 구이 메뉴와 가시를 확인.",
+    "https://www.diningcode.com/profile.php?rid=SNN5dUDpW0hy",
+    7
+  ],
+  [
+    "어진이네 횟집",
+    "ocean",
+    "해산물·생선",
+    "보목 해안",
+    "보목포로 93",
+    "약 8–12분",
+    "자리물회 · 생선구이",
+    "해안 창가에서 제주식 물회와 구이를 비교해 고를 수 있는 식당.",
+    "10:00–21:00 / 마지막 주문 20:00 안내",
+    "바다 방향 창가 요청. 자리물회는 뼈째 먹는 식감이 있어 구이·익힌 메뉴를 별도로 문의.",
+    "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000019940",
+    7
+  ],
+  [
+    "검은여마당넓은집",
+    "ocean",
+    "한식·전골",
+    "토평·검은여 해안",
+    "칠십리로 310-24",
+    "약 3–7분",
+    "토종닭백숙 · 오리백숙",
+    "바다가 보이는 마당 자리에서 백숙을 나눠 먹는 가까운 후보.",
+    "11:00–21:00 / 휴게 15:00–17:00 / 저녁 주문 마감 20:00",
+    "수요일 휴무 안내. 백숙은 사전 조리 예약과 야외 식사 가능 여부 확인. 우천·강풍 시 마당 이용 제한 가능.",
+    "https://www.diningcode.com/profile.php?rid=0xLAyelassxR",
+    7
+  ],
+  [
+    "영빈횟집 서귀포본점",
+    "ocean",
+    "해산물·생선",
+    "자구리 해안",
+    "칠십리로 129",
+    "약 5–10분",
+    "활어회 · 물회 · 해산물",
+    "해안도로 앞 전망과 회 식사를 함께 고를 수 있는 후보.",
+    "11:00–22:00 안내",
+    "바다가 보이는 창가를 문의하고 세트 총액·익힌 음식 구성·주차 위치를 확인하세요.",
+    "https://www.diningcode.com/profile.php?rid=8MJKFw68L98s",
+    7
+  ],
+  [
+    "쌍둥이횟집 본점",
+    "ocean",
+    "해산물·생선",
+    "서귀포 시내",
+    "중정로62번길 14",
+    "약 8–12분",
+    "모둠회 · 회 정식",
+    "여러 곁들임 요리와 회를 나눠 먹는 식당. 2층에서 바다가 보였다는 후기 기준의 조건부 전망 후보.",
+    "11:00–22:00 / 마지막 주문 20:30 안내",
+    "해안 바로 앞 전망과는 다릅니다. 반드시 2층 바다 보이는 자리 여부를 먼저 확인; 1층·안쪽은 전망 보장 없음.",
+    "https://revitguide.com/stores/5197",
+    7
+  ],
+  [
+    "제주힐링돼지",
+    "ocean",
+    "고기·구이",
+    "강정포구",
+    "말질로 320–322 일대 · 이전 공지 확인",
+    "약 20–30분",
+    "흑돼지 구이 · 모둠세트",
+    "바다를 마주한 야외 테라스에서 이른 저녁 고기를 먹는 후보.",
+    "12:00–21:00 안내 · 이전 후 시간 재확인",
+    "최근 확장이전 공지가 있습니다. 지도에서 최신 입구 주소·야외 운영·비 올 때 실내 전망을 확인하세요.",
+    "https://www.diningcode.com/profile.php?rid=uQpa3KjMhGq1",
+    7
+  ],
+  [
+    "해선락와사비",
+    "ocean",
+    "해산물·생선",
+    "남원·태흥 해안",
+    "남원읍 남태해안로 335",
+    "약 25–35분",
+    "제철 활어회 · 해산물 코스",
+    "남원 해안에서 바다 전망과 회 코스를 함께 고려할 때. 룸 식사를 원하면 먼저 문의.",
+    "저녁 ~22:00–23:00 안내 / 자료별 차이 있음",
+    "창가·룸별 바다 시야, 코스 총액과 저녁 접수 마감 확인. KAL 호텔 픽업은 보장되지 않습니다.",
+    "https://www.siksinhot.com/theme/magazine/11147",
+    8
+  ],
+  [
+    "파르나스 호텔 제주 콘페티",
+    "ocean",
+    "양식·뷔페",
+    "중문 색달",
+    "중문관광로72번길 100 · EAST동 3층",
+    "약 35–45분",
+    "호텔 디너 뷔페 · 해산물 · 그릴",
+    "해안 전망이 있는 호텔 뷔페. 다양한 음식을 편하게 고르고 싶은 특별한 저녁 후보.",
+    "디너 18:00–21:30 · 공식 안내",
+    "평일 성인 105,000원·소인 52,500원 공식 표기(예약일 재확인). 18시 입장 추천, 창가 요청은 배정 보장 아님.",
+    "https://www.parnashoteljeju.com/ko/dine/dineList.do",
+    6
+  ],
+  [
+    "더클리프",
+    "ocean",
+    "양식·뷔페",
+    "중문 색달해변",
+    "중문관광로 154-17",
+    "약 30–40분",
+    "피자 · 버거 · 파스타",
+    "색달해변을 내려다보는 테라스에서 노을과 캐주얼 식사를 즐기는 후보.",
+    "식사 메뉴 11:30–22:00 후기 안내 · 카페/펍 시간과 별도",
+    "17:00–18:00 이른 저녁 추천. DJ·음악이 큰 편이라 조용한 식사에는 덜 적합. 당일 가족 동반 가능 구역과 시간 문의.",
+    "https://www.diningcode.com/profile.php?rid=Eid5hNR79AcI",
+    6
+  ]
+];
+foods.push(...southFoods.map(r=>[r[0],(r[1]==='near'?'KAL 주변 10선':'오션뷰 저녁 10선')+' · '+r[3],r[6],r[7],r[9],r[10]]));
+const southDetails=Object.fromEntries(southFoods.map(r=>[r[0],r]));
 const foodCats={'허니문하우스':'카페·디저트','도도리 고기국수':'국수·국밥','숙성도 함덕점':'고기·구이','낭뜰에쉼팡':'한식·전골','만덕이네':'한식·전골','네거리식당':'해산물·생선','순옥이네명가 도두본점':'해산물·생선','오는정김밥':'김밥·포장','델문도':'카페·디저트','동복리 해녀촌':'국수·국밥','돌다메 이호애월본점':'고기·구이','장인의집 애월본점':'한식·전골','궁서체 제주탑동본점':'해산물·생선','전원일기 동광점':'한식·전골'};
 Object.assign(foodCats,{"명진전복":"해산물·생선","우진해장국":"국수·국밥","자매국수":"국수·국밥","미영이네":"해산물·생선","고집돌우럭 중문점":"해산물·생선","춘심이네 본점":"해산물·생선","곰막식당":"국수·국밥","산방식당 모슬포본점":"국수·국밥","수우동 협재점":"국수·국밥","제주김만복 본점":"김밥·포장"});
-const categories=['고기·구이','국수·국밥','해산물·생선','한식·전골','김밥·포장','카페·디저트'];
+Object.assign(foodCats,Object.fromEntries(southFoods.map(r=>[r[0],r[2]])));
+const categories=['고기·구이','국수·국밥','해산물·생선','한식·전골','김밥·포장','중식','양식·뷔페','카페·디저트'];
 const foodEvidence={'동복리 해녀촌':['https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020456','관광공사 메뉴 안내'],'돌다메 이호애월본점':['https://www.diningcode.com/profile.php?rid=tpYW5RvE6jTR','메뉴·최근 후기'],'장인의집 애월본점':['https://www.ktourmap.com/spotDetails.jsp?contentId=2847672','메뉴 안내'],'궁서체 제주탑동본점':['https://onuljeju.com/place/cmozzmzro3vlk8z4gc1owzibg','매장·계정 연결 안내'],'전원일기 동광점':['https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000013258','관광공사·계정 소개']};
 Object.assign(foodEvidence,{"우진해장국":["https://www.youtube.com/watch?v=9LvSH9y50WY","유튜브 · 맛집한끼 (연결 자료)"],"곰막식당":["https://www.youtube.com/watch?v=pOV-txFfYDE","유튜브 · 최자로드7 EP.10"],"고집돌우럭 중문점":["https://www.youtube.com/watch?v=wOw1kEXOAck","유튜브 · 2022 홍보 영상"],"춘심이네 본점":["https://www.youtube.com/watch?v=wOw1kEXOAck","유튜브 · 2022 홍보 영상"]});
 const sourceLabels={"자매국수":"주소·메뉴 안내","고집돌우럭 중문점":"매장 공식 안내","춘심이네 본점":"매장 공식 링크","곰막식당":"최자로드 식당 안내","수우동 협재점":"메뉴·방문 후기"};
 
+southFoods.forEach(r=>sourceLabels[r[0]]=r[0].includes('콘페티')?'호텔 공식 안내':r[10].includes('visitjeju')?'제주관광공사 안내':'메뉴·운영 안내');
+Object.assign(foodEvidence,{'용이식당':['https://www.youtube.com/watch?v=Jnrylx8K_64','유튜브 소개 · 2023 자료'],'진주식당':['https://www.youtube.com/watch?v=Jnrylx8K_64','유튜브 소개 · 2023 자료'],'바다를본돼지 서귀포올레시장점':['https://www.diningcode.com/profile.php?rid=IIyHXsk46Bjs','운영·전망 후기'],'어진이네 횟집':['https://www.diningcode.com/profile.php?rid=LXOPr22i71PL','운영·전망 후기'],'쌍둥이횟집 본점':['https://www.diningcode.com/profile.php?rid=b8AY0gD7qFMB','인근 식당 목록의 2층 전망 후기'],'제주힐링돼지':['https://www.daangn.com/kr/local-profile/제주힐링돼지-xagognj2ctgo/','매장 확장이전 공지']});
 const breakInfo={"우진해장국":["none","브레이크타임 없음 · 후기 기준","본관 기준. 2025.11 후기에서 없음으로 안내, 2026.03 후기의 본관 06–22시 운영도 교차 확인. 별관은 별도 운영.","https://bomong.tistory.com/438"],"명진전복":["none","브레이크타임 없음 · 후기 기준","2025.03 방문 소개 기준. 과거에는 휴게시간 안내도 있어 출발 전 확인 권장. 화요일 휴무 안내: 9/22 주의.","https://jeju3752.tistory.com/8"],"고집돌우럭 중문점":["break","브레이크타임 15:00–17:00","매장 공식 중문점 안내 기준. 재료 소진 시 조기 마감 가능.","https://www.gozipfish.com/map1"],"춘심이네 본점":["break","브레이크타임 15:30–17:00","매장 공식 링크 안내 기준. 마지막 주문 19:30.","https://litt.ly/ouvtdes"],"자매국수":["break","브레이크타임 14:30–16:10","2026.03 방문 후기 기준. 수요일 휴무 안내: 9/23 주의.","https://dearriveyen.tistory.com/15"],"곰막식당":["break","브레이크타임 15:00–16:00","식당 안내·후기 기준. 수요일 휴무 안내가 있어 9/23 방문 전 확인.","https://www.diningcode.com/profile.php?rid=nJGTJLXC8dJ9"],"오는정김밥":["break","브레이크타임 13:00–14:30","제주관광공사 안내 기준. 일요일 휴무, 예약 포장 수령시간 확인.","https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020123"],"숙성도 함덕점":["break","브레이크타임 15:00–16:30","기존 2026 방문 후기 기준. 함덕점의 당일 휴게·접수 마감 재확인.","https://daydirector.tistory.com/201"],"델문도":["continuous","연속 영업 안내 · 휴게 미표기","공식 홈페이지 함덕점 07:00–24:00 안내. 휴게시간 없음이 명시된 것은 아니므로 없음 필터에서는 제외.","https://www.delmoondo.com/service/company"],"허니문하우스":["continuous","연속 영업 안내 · 휴게 미표기","관광안내 10:00–18:30. 음료와 식사 메뉴의 주문 가능 시간이 다를 수 있어 식사 메뉴는 문의.","https://www.koreatriptips.com/dining/2664574.html"],"네거리식당":["unknown","브레이크타임 확인 필요","없음이라는 후기와 휴게시간이 있다는 안내가 달라 전화 확인이 필요합니다.","https://minseatlog.tistory.com/entry/🐟-제주-서귀포에서-만난-정갈한-갈치조림-한-상-네거리식당"],"만덕이네":["unknown","브레이크타임 확인 필요","없음 안내와 휴게시간 안내가 함께 있어 확정 분류하지 않았습니다.","https://www.tel-co.net/food/spot/641"],"수우동 협재점":["unknown","브레이크타임 확인 필요","방문 시기별 운영·휴게시간 안내가 달라 당일 매장 공지를 확인하세요.","https://www.diningcode.com/profile.php?rid=I1nGKDndnr7h"]};
 
+Object.assign(breakInfo,{
+'다정이네 올레시장 본점':['break','브레이크타임 15:00–16:00','테이블링 운영 안내 기준.',"https://www.tabling.co.kr/place/677ccaae66de5f06987bbf23"],
+'검은여마당넓은집':['break','브레이크타임 15:00–17:00','식당 안내 기준. 수요일 휴무, 점심 마지막 주문 14:00·저녁 20:00.',"https://www.diningcode.com/profile.php?rid=0xLAyelassxR"],
+'맛있는집':['break','브레이크타임 14:30–17:00 안내','관광정보 기준. 마감시간은 후기와 차이가 있어 당일 확인.','https://m.tripinfo.co.kr/info.html?content_id=1891943&content_type_id=39'],
+'파르나스 호텔 제주 콘페티':['break','런치·디너 별도 운영','공식 안내: 점심 12:00–14:30, 저녁 18:00–21:30. 중간 시간에는 뷔페 식사 불가.',"https://www.parnashoteljeju.com/ko/dine/dineList.do"],
+'서귀포흑돈':['unknown','영업·휴게시간 재확인','저녁 단독 운영 안내와 점심·휴게 운영 안내가 함께 있어 확인이 필요합니다.',"https://www.diningcode.com/profile.php?rid=NTGvIrvL88zY"]
+});
 const breakFor=n=>breakInfo[n]||['unknown','브레이크타임 확인 필요','휴게시간 없음 여부를 확정할 자료가 부족합니다. 출발 전 매장에 확인하세요.',null];
 const breakHTML=n=>{const b=breakFor(n);return '<div class="break-info '+b[0]+'"><strong>'+b[1]+'</strong><p>'+b[2]+'</p>'+(b[3]?link(b[3],'휴게시간 근거'):'')+'</div>';};
 
@@ -90,35 +384,41 @@ const foodRegions=[
 ['대정·모슬포',['미영이네','산방식당 모슬포본점'],20,645,320,350,540],
 ['중문·안덕',['고집돌우럭 중문점','춘심이네 본점','전원일기 동광점'],390,645,320,465,550],
 ['서귀포 시내',['허니문하우스','네거리식당','오는정김밥'],760,645,320,600,535]];
+foodRegions.push(['남원·태흥',[]]);
+southFoods.forEach(r=>foodRegions[r[11]][1].push(r[0]));
 if(foodRegions.flatMap(r=>r[1]).length!==foods.length || new Set(foodRegions.flatMap(r=>r[1])).size!==foods.length)throw Error('Map food coverage');
-const regionColors=['#075985','#087f8c','#267653','#8b5e24','#84609d','#a85436','#ad4261','#3966a1'];
-const regionCoords=[[33.50,126.51],[33.53,126.66],[33.53,126.80],[33.44,126.29],[33.39,126.81],[33.23,126.25],[33.27,126.38],[33.25,126.57]];
+const regionColors=['#075985','#087f8c','#267653','#8b5e24','#84609d','#a85436','#ad4261','#3966a1','#16716c'];
+const regionCoords=[[33.50,126.51],[33.53,126.66],[33.53,126.80],[33.44,126.29],[33.39,126.81],[33.23,126.25],[33.27,126.38],[33.25,126.57],[33.28,126.73]];
 const regionListHTML=foodRegions.map((r,i)=>'<div><h3><span style="color:'+regionColors[i]+'">'+(i+1)+'. '+r[0]+'</span></h3><ul>'+r[1].map(n=>'<li><a class="atlas-food-link" href="#'+foodId(n)+'">'+n+'</a>'+(breakFor(n)[0]==='none'?' <span class="no-break-mini">휴게 없음*</span>':'')+'</li>').join('')+'</ul></div>').join('');
 const regionMapData=foodRegions.map((r,i)=>({name:r[0],coord:regionCoords[i],color:regionColors[i],foods:r[1].map(n=>({name:n,id:foodId(n),noBreak:breakFor(n)[0]==='none'}))}));
-const foodMapHTML='<section id="food-map" class="block wrap"><p class="eyebrow">JEJU FOOD ATLAS</p><h2>한눈에 보는 제주 맛집 지도</h2><p>기존 <b>OpenStreetMap 지도</b> 위에 맛집 24곳을 8개 권역으로 표시했습니다. 번호를 누르면 해당 지역의 식당 목록이 열립니다.</p><p class="small">핀은 권역의 대표 위치입니다. 개별 식당의 정확한 위치는 상세 카드의 지도 링크를 이용하세요.</p><div id="jeju-food-map" role="region" aria-label="제주 맛집 권역 지도"></div><p id="map-status" class="small" role="status">지도를 불러오는 중입니다. 로딩되지 않으면 아래 지역별 목록을 이용하세요.</p><p class="small">지도: <a href="https://www.openstreetmap.org/#map=10/33.38/126.55" target="_blank" rel="noopener">OpenStreetMap에서 크게 보기</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></p><details open class="region-index"><summary>지역별 맛집 목록 · 24곳</summary><p class="small">초록색 ‘휴게 없음*’은 연결한 후기 기준입니다. 당일 영업을 보장하지 않으며, 휴무·품절·대기 마감은 별도입니다.</p><div class="grid">'+regionListHTML+'</div></details></section>';
+const foodMapHTML='<section id="food-map" class="block wrap"><p class="eyebrow">JEJU FOOD ATLAS</p><h2>한눈에 보는 제주 맛집 지도</h2><p>기존 <b>OpenStreetMap 지도</b> 위에 맛집 '+foods.length+'곳을 '+foodRegions.length+'개 권역으로 표시했습니다. 번호를 누르면 해당 지역의 식당 목록이 열립니다.</p><p class="small">핀은 권역의 대표 위치입니다. 개별 식당의 정확한 위치는 상세 카드의 지도 링크를 이용하세요.</p><div id="jeju-food-map" role="region" aria-label="제주 맛집 권역 지도"></div><p id="map-status" class="small" role="status">지도를 불러오는 중입니다. 로딩되지 않으면 아래 지역별 목록을 이용하세요.</p><p class="small">지도: <a href="https://www.openstreetmap.org/#map=10/33.38/126.55" target="_blank" rel="noopener">OpenStreetMap에서 크게 보기</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></p><details open class="region-index"><summary>지역별 맛집 목록 · '+foods.length+'곳</summary><p class="small">초록색 ‘휴게 없음*’은 연결한 후기 기준입니다. 당일 영업을 보장하지 않으며, 휴무·품절·대기 마감은 별도입니다.</p><div class="grid">'+regionListHTML+'</div></details></section>';
 
-const foodCard=f=>`<article id="${foodId(f[0])}" class="card food-card" data-food-category="${foodCats[f[0]]}" data-break-status="${breakFor(f[0])[0]}"><span class="badge">${foodCats[f[0]]}</span><p class="meta">${f[1]}</p><h3>${f[0]}</h3><p><b>${f[2]}</b></p><p>${f[3]}</p><p class="note">${f[4]}</p>${breakHTML(f[0])}<div class="links">${link(map(f[0]),'지도·영업')}${link(f[5],sourceLabels[f[0]]|| (f[5].includes('youtube.com')?'유튜브 원본 · 2024.01':f[5].includes('instagram.com')?'인스타 매장 계정':f[0].includes('숙성도')?'2026 방문 후기':f[0].includes('도도리')?'식당 안내':f[0]==='허니문하우스'?'운영·메뉴 안내':'관광공사 안내'))}${foodEvidence[f[0]]?link(...foodEvidence[f[0]]):''}</div></article>`;
+
+const southSummary='<section id="seogwipo-food" class="block wrap"><p class="eyebrow">SEOGWIPO TABLE · 2026.09.21 UPDATE</p><h2>서귀포에서 고르는 한 끼</h2><p>새 식당 20곳을 추가했습니다. 호텔 주변 10곳과 오션뷰 저녁 10곳은 서로 중복되지 않습니다. 아래 이름을 누르면 메뉴·영업시간·지도·근거 링크로 이동합니다.</p><div class="south-callout"><b>9월 22일 저녁, 먼저 비교할 3곳</b><p>가까운 흑돼지와 바다 → 바다를본돼지 · 물회와 생선구이 → 보목해녀의집 · 예약하는 특별한 뷔페 → 콘페티</p><p class="small">해안 식당은 17–18시, 콘페티는 18시 입장을 추천합니다. 해가 진 뒤에는 바다보다 창문 반사·야경 위주로 보일 수 있습니다. 창가·야외 좌석은 예약 때 별도로 확인하세요.</p></div><div class="grid south-index">'+[['near','KAL 호텔 주변 맛집 10곳'],['ocean','오션뷰 저녁 식당 10곳']].map(([key,title])=>'<div class="card"><h3>'+title+'</h3><ol>'+southFoods.filter(r=>r[1]===key).map(r=>'<li><a class="atlas-food-link" href="#'+foodId(r[0])+'">'+r[0]+'</a><span class="small">'+r[6]+' · '+r[3]+'</span></li>').join('')+'</ol></div>').join('')+'</div><p class="small">자료 조회 2026.09.21. 기존 일정은 유지했습니다. 이동시간은 주소를 바탕으로 잡은 여유 있는 예상치이며 실시간 경로 계산값이 아닙니다. 운영시간은 공식·관광·식당 안내와 후기 기준으로, 당일 휴무·재료 소진은 매장 확인이 필요합니다.</p></section>';
+
+const foodCard=f=>`<article id="${foodId(f[0])}" class="card food-card" data-food-category="${foodCats[f[0]]}" data-food-collection="${southDetails[f[0]]?.[1]||'existing'}" data-break-status="${breakFor(f[0])[0]}"><span class="badge">${foodCats[f[0]]}</span><p class="meta">${f[1]}</p><h3>${f[0]}</h3><p><b>${f[2]}</b></p><p>${f[3]}</p><p class="note">${f[4]}</p>${southDetails[f[0]]?'<div class="south-facts"><p><b>위치</b> · '+southDetails[f[0]][4]+'</p><p><b>KAL 출발</b> · 차 '+southDetails[f[0]][5]+' (예상)</p><p><b>운영 안내</b> · '+southDetails[f[0]][8]+'</p></div>':''}${breakHTML(f[0])}<div class="links">${link(map(f[0]),'지도·영업')}${link(f[5],sourceLabels[f[0]]|| (f[5].includes('youtube.com')?'유튜브 원본 · 2024.01':f[5].includes('instagram.com')?'인스타 매장 계정':f[0].includes('숙성도')?'2026 방문 후기':f[0].includes('도도리')?'식당 안내':f[0]==='허니문하우스'?'운영·메뉴 안내':'관광공사 안내'))}${foodEvidence[f[0]]?link(...foodEvidence[f[0]]):''}</div></article>`;
 
 const dayHTML=d=>`<section class="day"><div class="daytop"><span>${d.date}</span><small>${d.date.includes('23')?'RETURN DAY':'JEJU DAYS'}</small></div><h3>${d.title}</h3><p class="route">${d.route}</p><ol>${d.stops.map(s=>`<li><time>${s.t}</time><div><strong>${s.q?link(map(s.q),s.n):s.n}</strong><p>${s.note}</p></div></li>`).join('')}</ol><p class="note">${d.note}</p></section>`;
 const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>우리 제주 3박 4일 · 9월 20–23일</title><meta name="description" content="제주 3박 4일 여행. 소노벨 제주 2박·서귀포 KAL 1박, 5가지 동선과 맛집·명소 안내."><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><style>
 :root{--ink:#182f3b;--blue:#075985;--sea:#087f8c;--orange:#ce4b16;--pale:#edf5f7;--line:#d5e1e5}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;color:var(--ink);background:#fbfcfd;font-family:system-ui,-apple-system,'Segoe UI','Malgun Gothic',sans-serif;line-height:1.7;font-size:16px;word-break:keep-all}a{color:var(--blue);text-underline-offset:4px}a:hover{color:var(--orange)}a:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}.wrap{max-width:1160px;margin:auto;padding:0 26px}header{padding:20px 0;border-bottom:1px solid var(--line)}header .wrap{display:flex;justify-content:space-between;gap:20px;align-items:center}.brand{font-weight:850;letter-spacing:.08em;text-decoration:none}.small,small{font-size:14px;color:#536873}.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;padding-top:36px;padding-bottom:34px;align-items:center}.eyebrow{color:var(--sea);font-size:14px;font-weight:800;letter-spacing:.12em;margin:0 0 12px}h1{font-size:clamp(32px,4.5vw,52px);line-height:1.2;margin:0 0 16px;letter-spacing:-.04em}h2{font-size:30px;line-height:1.35;margin:8px 0 20px}h3{font-size:21px;line-height:1.5;margin:12px 0}p{margin:8px 0 16px}figure{margin:0}figure img{width:100%;height:245px;object-fit:cover;object-position:50% 72%;border-radius:8px}figcaption{font-size:12px;color:#5d6d75}.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span,.badge{background:var(--pale);border-radius:4px;padding:5px 10px;font-size:14px;font-weight:700}.fixed{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}.fixed>div{padding:18px;background:white}.fixed b{display:block;font-size:18px}.fixed p{font-size:14px;margin:5px 0 0}nav{position:sticky;top:0;background:#fbfcfdf5;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10;margin-top:28px}nav .wrap{display:flex;gap:24px;overflow:auto}nav a{padding:16px 0;white-space:nowrap;text-decoration:none;font-weight:700}section.block{padding-top:48px;padding-bottom:12px}.intro-note{border-left:4px solid var(--orange);background:#fff2e9;padding:16px 20px;margin:24px 0}.compare{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.option{display:block;padding:22px;border:1px solid var(--line);background:#fff;border-radius:8px;text-decoration:none;color:var(--ink)}.option:first-child{border:2px solid var(--sea)}.option strong{font-size:28px;color:var(--sea)}.option p{margin:6px 0}.plan{padding:32px 0;border-top:2px solid var(--ink);margin-top:40px}.planhead{display:flex;align-items:center;gap:18px}.letter{font-size:42px;line-height:1;font-weight:850;color:var(--sea)}.days{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.day{border:1px solid var(--line);border-radius:8px;padding:24px;background:white}.daytop{display:flex;justify-content:space-between;color:var(--sea);font-weight:800}.route{background:var(--pale);font-size:14px;padding:12px;border-radius:4px}.day ol{list-style:none;padding:0;margin:20px 0}.day li{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid #edf1f3}.day time{font-size:14px;font-weight:800;color:var(--sea)}.day li p{font-size:15px;color:#4d616b;margin:4px 0}.day li strong a{text-decoration:none}.note{font-size:14px;color:#455c68;background:#f0f5f6;padding:12px;margin-bottom:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{border:1px solid var(--line);background:white;border-radius:8px;padding:23px}.card p{font-size:15px}.card .meta{color:var(--sea);font-size:14px;font-weight:700}.card .links{display:flex;flex-wrap:wrap;gap:14px;padding-top:12px;border-top:1px solid var(--line);font-size:14px}.media .card{background:#f1f2f5;border-style:dashed}.media .badge{background:#e2e5ea}.trend{display:grid;grid-template-columns:1fr 1fr;gap:24px}.trend>div{background:var(--pale);padding:24px;border-radius:8px}.check{padding:22px 25px;background:white;border:1px solid var(--line);border-radius:8px}.check li{margin:10px 0}footer{border-top:1px solid var(--line);margin-top:48px;padding:25px 0 36px;color:#526975;font-size:14px}.return{background:#123e53;color:white;padding:24px;border-radius:8px;margin-top:22px}.return b{font-size:22px}.return p{margin-bottom:0}@media(max-width:800px){.hero{grid-template-columns:1fr}.hero figure img{height:200px}.fixed{grid-template-columns:1fr 1fr}.compare,.grid{grid-template-columns:1fr 1fr}.days{grid-template-columns:1fr}.trend{grid-template-columns:1fr}nav .wrap{gap:20px}}@media(max-width:520px){.wrap{padding-left:18px;padding-right:18px}.compare,.grid{grid-template-columns:1fr}.hero{padding-top:26px;gap:18px}h2{font-size:26px}.day{padding:18px}.day li{grid-template-columns:76px 1fr;gap:8px}.fixed>div{padding:12px}.fixed b{font-size:16px}header .small{font-size:12px}.planhead{align-items:flex-start}.hero figure img{height:160px}}@media print{nav{position:static}.hero figure{display:none}.hero,.days,.grid,.compare{display:block}.day,.card,.option{break-inside:avoid;margin:15px 0}.wrap{max-width:none}.plan{break-before:page}a{color:inherit}body{font-size:12px}}
-.food-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.food-filters button{font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:white;color:var(--ink);cursor:pointer}.food-filters button[aria-pressed="true"]{background:var(--sea);color:white;border-color:var(--sea)}.food-filters button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.food-card[hidden]{display:none}@media print{.food-card[hidden]{display:block}.food-filters{display:none}}.food-atlas{overflow-x:auto;border:1px solid #c6dde2;border-radius:18px;margin:24px 0}.food-atlas svg{display:block;width:100%;min-width:850px;height:auto}.atlas-food-link:hover text,.atlas-food-link:focus text{fill:#ce4b16;text-decoration:underline}.region-index{border:1px solid var(--line);padding:18px;border-radius:8px;background:white}.region-index summary{cursor:pointer;font-weight:750}.region-index li{margin:8px 0}.food-card:target{outline:3px solid var(--orange);outline-offset:3px;scroll-margin-top:95px}@media print{.food-atlas svg{min-width:0}}#jeju-food-map{height:520px;border:1px solid var(--line);border-radius:14px;z-index:0;background:#edf5f7}.region-map-pin span{display:grid;place-items:center;width:36px;height:36px;color:white;border:2px solid white;border-radius:50%;font-weight:800;box-shadow:0 2px 7px #0005}.leaflet-popup-content li{margin:9px 0}.break-info{border-left:3px solid #8495a0;background:#f1f4f6;padding:12px;margin:16px 0;font-size:14px}.break-info p{font-size:13px;margin:6px 0}.break-info.none{border-color:#15744b;background:#e9f6ee}.break-info.break{border-color:#bf5b19;background:#fff4e9}.no-break-mini{font-size:12px;background:#e9f6ee;color:#146640;border-radius:4px;padding:3px 5px;white-space:nowrap}.break-filter{display:block;padding:16px;background:#e9f6ee;border-radius:8px;margin:16px 0;cursor:pointer}.break-filter input{width:19px;height:19px;vertical-align:middle;margin-right:8px}@media(max-width:520px){#jeju-food-map{height:420px}}</style></head><body><header><div class="wrap"><a class="brand" href="#top">COAST DAYS / JEJU</a><span class="small">제주 여행 노트</span></div></header><main id="top"><section class="hero wrap"><div><p class="eyebrow">2026. 09. 20 SUN — 09. 23 WED</p><h1>제주에서 보내는<br>여유로운 4일.</h1><p>함덕에서 두 밤, 서귀포에서 한 밤.<br>맛있는 한 끼와 충분한 휴식 사이로 제주를 만나요.</p></div><figure><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hamdeok_Beach.jpg" alt="야자수와 푸른 바다가 보이는 제주 함덕해변" width="5592" height="4194"><figcaption>HAMDEOK BEACH · Hong Da Hyeon / Wikimedia Commons · CC0</figcaption></figure></section><div class="wrap fixed"><div><span class="small">가는 비행기 · 20일</span><b>김포 07:40 출발</b><p>도착시간은 항공 예약표 기준</p></div><div><span class="small">렌터카</span><b>20일 10:00 대여</b><p>23일 14:00 반납</p></div><div><span class="small">숙박</span><b>소노벨 제주 2박</b><p>20·21일 / 서귀포 KAL 22일 1박</p></div><div><span class="small">오는 비행기 · 23일</span><b>제주 16:05 출발</b><p>14:40 전후 공항 도착 목표</p></div></div><nav aria-label="여행 메뉴"><div class="wrap"><a href="#plans">코스 5가지</a><a href="#places">가볼 만한 곳</a><a href="#food-map">맛집 지도</a><a href="#food">맛집·카페</a><a href="#hotspots">요즘 핫플</a><a href="#media">미디어아트 후보</a><a href="#check">출발 전 체크</a></div></nav>
+.food-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.food-filters button{font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:white;color:var(--ink);cursor:pointer}.food-filters button[aria-pressed="true"]{background:var(--sea);color:white;border-color:var(--sea)}.food-filters button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.food-card[hidden]{display:none}@media print{.food-card[hidden]{display:block}.food-filters{display:none}}.food-atlas{overflow-x:auto;border:1px solid #c6dde2;border-radius:18px;margin:24px 0}.food-atlas svg{display:block;width:100%;min-width:850px;height:auto}.atlas-food-link:hover text,.atlas-food-link:focus text{fill:#ce4b16;text-decoration:underline}.region-index{border:1px solid var(--line);padding:18px;border-radius:8px;background:white}.region-index summary{cursor:pointer;font-weight:750}.region-index li{margin:8px 0}.food-card:target{outline:3px solid var(--orange);outline-offset:3px;scroll-margin-top:95px}@media print{.food-atlas svg{min-width:0}}#jeju-food-map{height:520px;border:1px solid var(--line);border-radius:14px;z-index:0;background:#edf5f7}.region-map-pin span{display:grid;place-items:center;width:36px;height:36px;color:white;border:2px solid white;border-radius:50%;font-weight:800;box-shadow:0 2px 7px #0005}.leaflet-popup-content li{margin:9px 0}.break-info{border-left:3px solid #8495a0;background:#f1f4f6;padding:12px;margin:16px 0;font-size:14px}.break-info p{font-size:13px;margin:6px 0}.break-info.none{border-color:#15744b;background:#e9f6ee}.break-info.break{border-color:#bf5b19;background:#fff4e9}.no-break-mini{font-size:12px;background:#e9f6ee;color:#146640;border-radius:4px;padding:3px 5px;white-space:nowrap}.break-filter{display:block;padding:16px;background:#e9f6ee;border-radius:8px;margin:16px 0;cursor:pointer}.break-filter input{width:19px;height:19px;vertical-align:middle;margin-right:8px}@media(max-width:520px){#jeju-food-map{height:420px}}.south-callout{padding:22px;border-radius:12px;background:#e3f1f1;margin:22px 0}.south-index li{padding:8px 0}.south-index li span{display:block}.south-facts{background:#f6f3ee;padding:12px;border-radius:8px;font-size:14px}.south-facts p{margin:8px 0}.south-index{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:680px){.south-index{grid-template-columns:1fr}}#seogwipo-food{scroll-margin-top:90px}</style></head><body><header><div class="wrap"><a class="brand" href="#top">COAST DAYS / JEJU</a><span class="small">제주 여행 노트</span></div></header><main id="top"><section class="hero wrap"><div><p class="eyebrow">2026. 09. 20 SUN — 09. 23 WED</p><h1>제주에서 보내는<br>여유로운 4일.</h1><p>함덕에서 두 밤, 서귀포에서 한 밤.<br>맛있는 한 끼와 충분한 휴식 사이로 제주를 만나요.</p></div><figure><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hamdeok_Beach.jpg" alt="야자수와 푸른 바다가 보이는 제주 함덕해변" width="5592" height="4194"><figcaption>HAMDEOK BEACH · Hong Da Hyeon / Wikimedia Commons · CC0</figcaption></figure></section><div class="wrap fixed"><div><span class="small">가는 비행기 · 20일</span><b>김포 07:40 출발</b><p>도착시간은 항공 예약표 기준</p></div><div><span class="small">렌터카</span><b>20일 10:00 대여</b><p>23일 14:00 반납</p></div><div><span class="small">숙박</span><b>소노벨 제주 2박</b><p>20·21일 / 서귀포 KAL 22일 1박</p></div><div><span class="small">오는 비행기 · 23일</span><b>제주 16:05 출발</b><p>14:40 전후 공항 도착 목표</p></div></div><nav aria-label="여행 메뉴"><div class="wrap"><a href="#plans">코스 5가지</a><a href="#places">가볼 만한 곳</a><a href="#seogwipo-food">서귀포·오션뷰 20선</a><a href="#food-map">맛집 지도</a><a href="#food">맛집·카페</a><a href="#hotspots">요즘 핫플</a><a href="#media">미디어아트 후보</a><a href="#check">출발 전 체크</a></div></nav>
 <section id="plans" class="wrap block"><p class="eyebrow">CHOOSE YOUR PACE</p><h2>우리에게 맞는 코스는?</h2><p>다섯 안 모두 <b>스누피가든 · 도도리 고기국수 · 숙성도</b>를 포함하며, <b>23일 10시 허니문하우스 늦은 조식</b>도 공통입니다. D안은 스누피가든을 첫날에 방문하고, E안은 숙소 거리보다 요즘 화제인 공간을 우선합니다. 미디어아트 전시관은 일정에서 모두 제외했습니다.</p><div class="compare">${plans.map(p=>`<a class="option" href="#plan-${p.id}"><span class="badge">${p.tag}</span><h3><strong>${p.id}</strong> ${p.title}</h3><p>${p.desc}</p><small>${p.drive}</small></a>`).join('')}</div><div class="intro-note"><b>첫 선택은 A안.</b> 하루 핵심 관광지 한 곳과 객실 휴식을 중심으로 잡았습니다. 개인 컨디션과 휴식 시간을 고려한 일정입니다. 걷기 한 번 20–30분, 긴 식당 대기는 피하는 기준입니다.</div><p class="small">모든 운전시간은 계획용 추정이며 실시간 길찾기 값이 아닙니다. 렌터카 업체·교통·날씨에 따라 달라집니다. 정해진 숙박은 20·21일 소노벨 제주, 22일 서귀포 KAL입니다.</p>${plans.map(p=>`<article id="plan-${p.id}" class="plan"><div class="planhead"><span class="letter">${p.id}</span><div><span class="badge">${p.tag}</span><h2>${p.title}</h2></div></div><p>${p.why}</p><p class="small">${p.drive} · 항공 이동 제외</p><div class="days">${p.days.map(dayHTML).join('')}</div></article>`).join('')}</section>
 <section id="hotspots" class="block wrap"><p class="eyebrow">HOT NOW · PLAN E</p><h2>E안, 왜 이 장소를 골랐나요?</h2><p>2026년 9월 19일 확인한 보도·운영사 안내·최근 후기를 바탕으로 선정했습니다. 최신 개업 순위나 방문객 수 순위는 아닙니다.</p><div class="grid">${hotSources.map(h=>`<article class="card"><span class="meta">E안 신규 장소</span><h3>${h[0]}</h3><p>${h[1]}</p><div class="links">${link(map(h[0]),'지도')}${link(h[2],h[3])}</div></article>`).join('')}</div><p>동화마을 참고: ${link('https://alkaidsolution.tistory.com/154','2026 방문 후기')} · ${link('https://www.popcondplay.com/ip/store/12?store=23','코리코카페 운영사 매장 안내')}. 방문일 영업·식사 메뉴·대기는 지도와 매장 공지를 확인하세요.</p></section><section class="block wrap"><p class="eyebrow">THIS AUTUMN IN JEJU</p><h2>요즘 제주, 우리 동선에 맞게</h2><div class="trend"><div><h3>마을·숲·제철 풍경</h3><p>제주관광공사의 2026 가을 추천은 로컬마을, 숲, 구좌 당근과 가을 들판을 소개합니다. 이를 B안의 세화·성읍·보롬왓에 맞춰 반영했습니다. 추천의 서부 저지리까지는 왕복하지 않습니다.</p>${link(refs.autumn,'2026 공식 가을 추천')}</div><div><h3>9월의 꽃은 ‘상태 확인 후’</h3><p>메밀·억새·핑크뮬리는 장소와 기상에 따라 시기가 다릅니다. 9월 20~23일 만개나 특정 축제 진행을 확정하지 않았습니다. 보롬왓을 방문할 때는 전날 사진·공지를 확인하고, 기대와 다르면 마을·카페로 전환하세요.</p>${link(refs.borom,'보롬왓 관광안내')}</div></div></section>
 <section id="places" class="block wrap"><p class="eyebrow">PLACES & ROUTES</p><h2>가볼 만한 곳 ${places.length}곳</h2><div class="grid">${places.map(p=>`<article class="card"><span class="meta">${p[1]}</span><h3>${p[0]}</h3><p><b>${p[2]}</b><br>${p[3]}</p><p>${p[4]}</p><div class="links">${link(map(p[0]),'지도')}${link(p[5],'공식·관광안내')}</div></article>`).join('')}</div></section>
-${foodMapHTML}<section id="food" class="block wrap"><p class="eyebrow">FAMILY TABLE</p><h2>맛집·카페 ${foods.length}곳</h2><p>음식 종류를 눌러 골라 보세요. 기존 목록에 맛집 10곳을 더해 총 24곳을 정리했습니다. A–E 일정은 그대로입니다.</p><p class="small">추가 자료 확인: 2026.09.20. 유튜브 영상 설명과 영상 연결 자료, 공식 관광·매장 안내를 참고했습니다. 일부 영상은 2022년 홍보 자료로 별도 표시했습니다. 인스타그램은 본문 접근 제한으로 매장 안내·관광공사에 연결된 계정을 교차 확인했으며, 최근 게시물 내용이나 인기 순위를 검증한 것은 아닙니다. 소개 당시 메뉴·가격과 현재 운영은 다를 수 있습니다.</p><div class="food-filters" role="group" aria-label="음식 종류 선택"><button type="button" data-filter="전체" aria-pressed="true">전체 (${foods.length})</button>${categories.map(c=>`<button type="button" data-filter="${c}" aria-pressed="false">${c} (${foods.filter(f=>foodCats[f[0]]===c).length})</button>`).join('')}</div><label class="break-filter"><input type="checkbox" id="no-break-only">브레이크타임 없는 곳만 보기 · 후기 기준 2곳</label><p class="small">휴게정보 확인: 2026.09.20. ‘없음’이 명시된 우진해장국·명진전복 후기를 별도 표시했습니다. 영업시간만 연속으로 표기된 곳은 없음으로 단정하지 않았습니다. 매장별 근거와 주의사항은 카드에서 확인하세요.</p><p id="food-result" class="small" role="status" aria-live="polite">전체 ${foods.length}곳</p><div class="grid" id="food-grid">${categories.flatMap(c=>foods.filter(f=>foodCats[f[0]]===c)).map(foodCard).join('')}</div></section>
+${southSummary}${foodMapHTML}<section id="food" class="block wrap"><p class="eyebrow">FAMILY TABLE</p><h2>맛집·카페 ${foods.length}곳</h2><p>음식 종류를 눌러 골라 보세요. 기존 24곳에 서귀포 주변 10곳·오션뷰 저녁 10곳을 추가해 총 44곳을 정리했습니다. A–E 일정은 그대로입니다.</p><p class="small">서귀포 추가 자료 확인: 2026.09.21. 기존 SNS 자료 확인: 2026.09.20. 유튜브 영상 설명과 영상 연결 자료, 공식 관광·매장 안내를 참고했습니다. 일부 영상은 2022년 홍보 자료로 별도 표시했습니다. 인스타그램은 본문 접근 제한으로 매장 안내·관광공사에 연결된 계정을 교차 확인했으며, 최근 게시물 내용이나 인기 순위를 검증한 것은 아닙니다. 소개 당시 메뉴·가격과 현재 운영은 다를 수 있습니다.</p><div class="food-filters" role="group" aria-label="맛집 모음 선택"><button type="button" data-collection="all" aria-pressed="true">모든 지역</button><button type="button" data-collection="near" aria-pressed="false">KAL 주변 새 맛집 10곳</button><button type="button" data-collection="ocean" aria-pressed="false">오션뷰 저녁 10곳</button></div><div class="food-filters" role="group" aria-label="음식 종류 선택"><button type="button" data-filter="전체" aria-pressed="true">전체 (${foods.length})</button>${categories.map(c=>`<button type="button" data-filter="${c}" aria-pressed="false">${c} (${foods.filter(f=>foodCats[f[0]]===c).length})</button>`).join('')}</div><label class="break-filter"><input type="checkbox" id="no-break-only">브레이크타임 없는 곳만 보기 · 후기 기준 2곳</label><p class="small">휴게정보 확인: 기존 목록 2026.09.20 / 추가 목록 2026.09.21. ‘없음’이 명시된 우진해장국·명진전복 후기를 별도 표시했습니다. 영업시간만 연속으로 표기된 곳은 없음으로 단정하지 않았습니다. 매장별 근거와 주의사항은 카드에서 확인하세요.</p><p id="food-result" class="small" role="status" aria-live="polite">전체 ${foods.length}곳</p><div class="grid" id="food-grid">${categories.flatMap(c=>foods.filter(f=>foodCats[f[0]]===c)).map(foodCard).join('')}</div></section>
 <section id="media" class="block wrap media"><p class="eyebrow">SAVED FOR ANOTHER TIME</p><h2>미디어아트는 목록에만</h2><p><b>아래 세 곳은 A·B·C·D·E안 어디에도 포함하지 않았습니다.</b> 나중에 마음이 바뀌면 참고할 후보입니다.</p><div class="grid">${media.map(m=>`<article class="card"><span class="badge">일정 제외</span><h3>${m[0]}</h3><p class="meta">${m[1]}</p><p>${m[3]}</p><div class="links">${link(m[2],'공식 안내')}${link(map(m[0]),'지도')}</div></article>`).join('')}</div></section>
 <section id="check" class="block wrap"><p class="eyebrow">READY FOR TOMORROW</p><h2>출발 전, 이것만 확인하세요</h2><div class="check"><ul><li><b>렌터카:</b> 탑승 정원과 필요한 카시트·여행가방 공간 확인. 업체 인수·반납 주소와 셔틀 간격은 예약서 기준입니다.</li><li><b>숙성도:</b> 함덕점 064-783-9951에 일행 동석·아기 의자·대기 방식을 확인하세요. 첫날 입장 실패 시 21일 이른 저녁으로 옮깁니다.</li><li><b>스누피가든:</b> 공식 예매 페이지에서 당일 사용 가능 시점·유아 무료 기준·연령 증빙 확인. 일행의 실제 개월 수를 몰라 입장료 총액은 확정하지 않았습니다.</li><li><b>숙소:</b> 객실 정원·인원 추가비·침구·조식·체크인 및 주차를 예약 내용과 대조하세요. ${link(refs.sono,'소노벨 공식')} · ${link(refs.kal,'서귀포 KAL 공식')}</li><li><b>아이 휴식:</b> 유모차·여벌옷·간식·물·익숙한 책을 준비하고, 13~16시 중 낮잠을 확보하세요. B안 세화는 낮잠 우선이면 생략합니다.</li><li><b>날씨:</b> 비가 오면 C안을 참고하되 폭우·강풍에는 이동 자체를 줄입니다. ${link('https://www.weather.go.kr/w/index.do','기상청')}</li></ul></div><div class="return"><b>23일 13:30 반납지 도착 목표 → 14:00 반납 → 16:05 비행기</b><p>허니문하우스에서 10시 늦은 조식 후 11시 공항 방향으로 출발합니다. 차량 검수·셔틀·수하물 수속 시간을 우선하세요.</p></div></section></main><footer><div class="wrap"><b>자료 확인: 2026년 9월 19일</b><p>운영 정보는 공식 사이트·제주관광공사와 검색 가능한 식당 안내·후기를 확인했습니다. 검색 수집일과 원문 갱신일은 다를 수 있으며, 예약 가능 여부와 당일 영업을 보장하지 않습니다. 코스·이동시간·휴식시간은 일행을 위한 계획 제안입니다.</p><p>사진: ${link('https://commons.wikimedia.org/wiki/File:Hamdeok_Beach.jpg','Hong Da Hyeon / Wikimedia Commons')} · CC0, 화면 비율에 맞게 크롭. ${link('https://astricknox.github.io/yangyang-trip/','지난 양양 여행')}</p><a href="#top">맨 위로</a></div></footer><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script><script>var regionMapData=${JSON.stringify(regionMapData)};
-var selectedFoodCategory='전체';
-function applyFoodFilters(){var only=document.getElementById('no-break-only').checked,count=0;document.querySelectorAll('.food-card').forEach(function(c){var show=(selectedFoodCategory==='전체'||c.dataset.foodCategory===selectedFoodCategory)&&(!only||c.dataset.breakStatus==='none');c.hidden=!show;if(show)count++;});document.getElementById('food-result').textContent=selectedFoodCategory+(only?' · 브레이크타임 없음(후기 기준)':'')+' '+count+'곳';}
+var selectedFoodCategory='전체',selectedCollection='all';
+document.querySelectorAll('[data-collection]').forEach(function(b){b.addEventListener('click',function(){selectedCollection=b.dataset.collection;document.querySelectorAll('[data-collection]').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});applyFoodFilters();});});
+function applyFoodFilters(){var only=document.getElementById('no-break-only').checked,count=0;document.querySelectorAll('.food-card').forEach(function(c){var show=(selectedFoodCategory==='전체'||c.dataset.foodCategory===selectedFoodCategory)&&(selectedCollection==='all'||c.dataset.foodCollection===selectedCollection)&&(!only||c.dataset.breakStatus==='none');c.hidden=!show;if(show)count++;});document.getElementById('food-result').textContent=(selectedCollection==='near'?'KAL 주변 · ':selectedCollection==='ocean'?'오션뷰 저녁 · ':'')+selectedFoodCategory+(only?' · 브레이크타임 없음(후기 기준)':'')+' '+count+'곳';}
 document.querySelectorAll('[data-filter]').forEach(function(b){b.addEventListener('click',function(){selectedFoodCategory=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});applyFoodFilters();});});
 document.getElementById('no-break-only').addEventListener('change',applyFoodFilters);
-document.addEventListener('click',function(e){var a=e.target.closest('.atlas-food-link');if(a){document.getElementById('no-break-only').checked=false;document.querySelector('[data-filter="전체"]').click();}});
+document.addEventListener('click',function(e){var a=e.target.closest('.atlas-food-link');if(a){document.querySelector('[data-collection="all"]').click();document.getElementById('no-break-only').checked=false;document.querySelector('[data-filter="전체"]').click();}});
 function initFoodMap(){if(!window.L){document.getElementById('map-status').textContent='지도 연결이 지연되고 있습니다. 아래 지역별 목록 또는 OpenStreetMap 링크를 이용하세요.';return;}
 var m=L.map('jeju-food-map',{scrollWheelZoom:false}).fitBounds([[33.17,126.12],[33.58,126.96]]);
 var tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(m);
 tiles.on('tileerror',function(){document.getElementById('map-status').textContent='일부 지도 이미지를 불러오지 못했습니다. 아래 지역별 목록을 이용할 수 있습니다.';});
-regionMapData.forEach(function(r,i){var icon=L.divIcon({className:'region-map-pin',html:'<span style="background:'+r.color+'">'+(i+1)+'</span>',iconSize:[36,36],iconAnchor:[18,18]});L.marker(r.coord,{icon:icon,title:r.name,alt:r.name}).addTo(m).bindTooltip(r.name).bindPopup('<b>'+(i+1)+'. '+r.name+'</b><ul>'+r.foods.map(function(f){return '<li><a class="atlas-food-link" href="'+String.fromCharCode(35)+f.id+'">'+f.name+'</a>'+(f.noBreak?' <span class="no-break-mini">휴게 없음*</span>':'')+'</li>';}).join('')+'</ul>',{maxWidth:300});});
+regionMapData.forEach(function(r,i){var icon=L.divIcon({className:'region-map-pin',html:'<span style="background:'+r.color+'">'+(i+1)+'</span>',iconSize:[36,36],iconAnchor:[18,18]});L.marker(r.coord,{icon:icon,title:r.name,alt:r.name}).addTo(m).bindTooltip(r.name).bindPopup('<b>'+(i+1)+'. '+r.name+'</b><ul>'+r.foods.map(function(f){return '<li><a class="atlas-food-link" href="'+String.fromCharCode(35)+f.id+'">'+f.name+'</a>'+(f.noBreak?' <span class="no-break-mini">휴게 없음*</span>':'')+'</li>';}).join('')+'</ul>',{maxWidth:300,maxHeight:300});});
 document.getElementById('map-status').textContent='번호를 누르면 식당 목록이 열립니다. + / − 버튼으로 확대·축소할 수 있습니다.';
 }
 window.addEventListener('load',initFoodMap);
